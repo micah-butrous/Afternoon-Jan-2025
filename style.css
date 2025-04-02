@@ -1,0 +1,58 @@
+body{
+    background-image:url(Kakuma.jpeg);
+    background-size: cover;
+}
+h1{
+    color: blue;
+    text-align: center;
+    border: 2px inset;
+    background-color: grey;
+    border-radius: 24px;
+    border-color: #11ba1f;
+    border-width: 6px;
+}
+#ab{
+    color: #130bf1;
+}
+#ac{
+    color: chartreuse;
+    background-color: grey;
+}
+.ab{
+    color: #ff00b7;
+    margin: 50px;
+}
+.ac{
+    color: white;
+    background-color: blue;
+    border: 2px solid;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px 0;
+}
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.menu li {
+    margin: 0 10px;
+}
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px 15px;
+    display: block;
+}
+.menu a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}

@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.flex-footer {
+    display: flex;
+    justify-content: space-around;
+    background: #333;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.flex-footer div {
+    flex: 1;
+    padding: 10px;
+}
+.flex-footer a {
+    display: block;
+    color: white;
+    text-decoration: none;
+
+}
+
+.flex-footer a:hover {
+    text-decoration: underline;
+}
+.af a{
+    color: yellow;
+    font-size: 23px;
+}
+.af a:hover{
+    color: darkorchid;
+}
